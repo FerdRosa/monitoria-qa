@@ -6,7 +6,7 @@ import google.generativeai as genai
 API_KEY = st.secrets["GEMINI_KEY"] 
 
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.0-flash')
 
 # Configuração da Página
 st.set_page_config(page_title="Monitoria de Qualidade", layout="wide", page_icon="✅")
@@ -165,3 +165,4 @@ else:
     # Tela inicial vazia (instrução)
 
     st.info("👈 Preencha os dados na barra lateral para começar.")
+
