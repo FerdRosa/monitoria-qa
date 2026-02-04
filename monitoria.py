@@ -247,7 +247,7 @@ with st.sidebar:
         "Atender o cliente no tempo correto",
         "Questionae ao cliente como pode ajudar",
         "Evite termos técnicos com o cliente",
-        "Transferir o cliente para pesquisa ao final do atendimento"
+        "Transferir o cliente para pesquisa ao final do atendimento",
         "Realizar a atualização/confirmação em todos os atendimentos"
     ]
 
@@ -332,6 +332,7 @@ else:
     # Tela inicial vazia (instrução)
 
     st.info("👈 Preencha os dados na barra lateral para começar.")
+
 
 
 
