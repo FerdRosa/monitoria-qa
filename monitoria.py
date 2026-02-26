@@ -248,7 +248,8 @@ with st.sidebar:
         "Questionae ao cliente como pode ajudar",
         "Evite termos técnicos com o cliente",
         "Transferir o cliente para pesquisa ao final do atendimento",
-        "Realizar a atualização/confirmação em todos os atendimentos"
+        "Realizar a atualização/confirmação em todos os atendimentos",
+        "Questionar ao final do atendimento se o cliente ainda tem dúvida"
     ]
 
     acoes_feitas = st.multiselect("✅ Pontos Positivos", options=lista_positivos)
@@ -332,6 +333,7 @@ else:
     # Tela inicial vazia (instrução)
 
     st.info("👈 Preencha os dados na barra lateral para começar.")
+
 
 
 
